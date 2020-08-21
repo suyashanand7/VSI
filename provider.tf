@@ -10,7 +10,7 @@ variable "ibmcloud_api_key" {
   description = "WwgSeCY0-VWRKtug6cRBtayYjBHTR2lNyryWvfoIMtRr"
 }
 
-provider "ibm" {
+provider "softlayer" {
   softlayer_username = var.softlayer_username
   softlayer_api_key  = var.softlayer_api_key
   ibmcloud_api_key   = var.ibmcloud_api_key
