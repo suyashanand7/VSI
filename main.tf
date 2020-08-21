@@ -13,5 +13,3 @@ resource "ibm_compute_vm_instance" "vm1" {
   disks                = [25]
   local_disk           = false
 }
-
-provider "ibm" {}
