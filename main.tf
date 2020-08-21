@@ -14,3 +14,4 @@ resource "ibm_compute_vm_instance" "vm1" {
   local_disk           = false
 }
 
+provider "ibm" {}
