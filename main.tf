@@ -19,6 +19,12 @@ provider "ibm" {
 }
 terraform {
   required_version = ">= 0.13"
+  required_providers {
+    ibm = {
+      source  = "localdomain/provider/ibm"
+      version = "1.10.0"
+    }
+  }
 }
 
 
