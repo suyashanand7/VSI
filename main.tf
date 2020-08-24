@@ -18,12 +18,14 @@ provider "ibm" {
   ibmcloud_api_key   = var.ibmcloud_api_key
 }
 terraform {
-  required_version = ">= 0.13"
   required_providers {
     ibm = {
+      source = "https://github.com/suyashanand7/VSI/tree/master/.terraform/plugins/linux_amd64"
       version = "1.10.0"
     }
   }
+  required_version = ">= 0.13"
+  
 }
 
 
