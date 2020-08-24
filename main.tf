@@ -21,7 +21,7 @@ terraform {
   required_version = ">= 0.13"
   required_providers {
     ibm = {
-      source  = "localdomain/provider/ibm"
+      source  = ".terraform/plugins/linux_amd64/"
       version = "1.10.0"
     }
   }
