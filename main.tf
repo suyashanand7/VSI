@@ -20,7 +20,7 @@ provider "ibm" {
 terraform {
   required_providers {
     ibm = {
-      source = "localdomain/provider/ibm"
+      source = "https://github.com/IBM-Cloud/terraform-provider-ibm/releases/tag/v1.11.0"
       version = "1.10.0"
     }
   }
