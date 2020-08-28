@@ -20,7 +20,7 @@ provider "ibm" {
 terraform {
   required_providers {
     ibm = {
-      source = "github.com/vijaylakshmi-b"
+      source = "github.com/vijaylakshmi-b/releases"
       }
   }
   required_version = ">= 0.13"
