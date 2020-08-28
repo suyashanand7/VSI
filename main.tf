@@ -20,8 +20,8 @@ provider "ibm" {
 terraform {
   required_providers {
     ibm = {
-      source = "github.ibm.com/IBM-Cloud/terraform-provider-ibm"
-    }
+      source = "github.ibm.com/ibm-cloud/ibm"
+      }
   }
   required_version = ">= 0.13"
   
