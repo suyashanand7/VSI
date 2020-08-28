@@ -18,11 +18,6 @@ provider "ibm" {
   ibmcloud_api_key   = var.ibmcloud_api_key
 }
 terraform {
-  required_providers {
-    ibm = {
-      source = "github.com/vijaylakshmi-b/releases/"
-      }
-  }
   required_version = ">= 0.13"
   
 }
